@@ -5,6 +5,7 @@ sum=0
 for i in ${Numbers[@]}
  do
   sum=$(($sum+$i))
+  echo $sum
  done
 
  echo "sum is $sum"
