@@ -3,10 +3,10 @@
 Numbers=(1,4,6,9,4,6)
 sum=0
 for i in ${Numbers[@]}
- do
+do
   sum=$(($sum+$i))
   echo $sum
- done
+done
 
  echo "sum is $sum"
   
