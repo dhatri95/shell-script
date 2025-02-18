@@ -21,7 +21,7 @@ if [ $? -eq 0 ]
     exit 1
 fi
 
-dnf install gitt -y
+dnf install git -y
 
 if [ $? -eq 0 ]
    then
