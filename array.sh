@@ -8,7 +8,7 @@ do
   {
     sum=$(($sum+$i))
   }
-done
-
- echo "sum is $sum"
+  done
+  
+echo "sum is $sum"
   
