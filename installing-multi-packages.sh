@@ -16,7 +16,7 @@ validation()
             echo -e "Installing of $2.. $G SUCEEDED $N"
         else
             echo -e "Installing of $2.. $R FAILED $N"
-
+    fi
 }
 
 if [ $Userid -eq 0 ]
