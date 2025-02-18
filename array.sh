@@ -5,7 +5,7 @@ sum=0
 for i in ${Numbers[@]}
 do
   if ($i/2==0)
-    sum=$(($sum+$i))
+    sum= $(($sum+$i))
 done
 
 echo "sum is $sum"
