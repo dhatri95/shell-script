@@ -17,7 +17,7 @@ if [ $Userid -eq 0 ]
         exit 1
 fi
 
-for i in @
+for i in $@
 do
     echo "Installing $i "
 done
