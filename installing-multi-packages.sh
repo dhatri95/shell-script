@@ -5,7 +5,7 @@ R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
-timestamp=$(date +%f-%H-%M-%S)
+timestamp=$(date +%F-%H-%M-%S)
 ScriptName=$(echo $0 | cut -d "." -f 1)
 log="/tmp/$ScriptName-$timestamp.log"
 
