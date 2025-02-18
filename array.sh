@@ -5,7 +5,7 @@ sum=0
 
 for i in ${Numbers[@]}
 do
-  if [ $i % 2 -eq 0 ]
+  if [ $(($i % 2)) -eq 0 ]
    then
    sum= $(( $sum + $i ))
   fi
