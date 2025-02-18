@@ -13,3 +13,10 @@ echo "Enter second digit"
 read num2
 
 echo "Sum of $num1 and $num2 is $(($num1+$num2))"
+
+
+#without echo to send msg
+
+read -p "Enter Username " $Username
+
+echo "username is : $Username"
