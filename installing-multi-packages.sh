@@ -7,7 +7,7 @@ Y="\e[33m"
 N="\e[0m"
 timestamp=$(date +%f-%H-%M-%S)
 ScriptName=$(echo $0 | cut -d "." -f 1)
-log=/tmp/$ScriptName-$timestamp.log
+log="/tmp/$ScriptName-$timestamp.log"
 
 validation()
 {
